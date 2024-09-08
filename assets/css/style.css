@@ -48,6 +48,11 @@ body {
     font-family: 'DM Sans';
     overflow-x: hidden;
 }
+@media only screen and (max-width: 650px) and (min-width: 0px){
+    body {
+      display: none;
+    }
+}
 p
 {
     font-size: 18px;
